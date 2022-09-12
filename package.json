@@ -1,0 +1,19 @@
+{
+  "name": "nodefiles",
+  "version": "16.17.0",
+  "description": "Simple web app",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zcamm7417/intro-to-node.git"
+  },
+  "author": "Alaro Abdulroqeeb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zcamm7417/intro-to-node/issues"
+  },
+  "homepage": "https://github.com/Zcamm7417/intro-to-node#readme"
+}

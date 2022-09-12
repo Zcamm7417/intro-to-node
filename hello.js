@@ -8,7 +8,7 @@ http.createServer(function (req, res) {
     if (filename == './') {filename = './index';}
 
     filename = filename + ".html";
-
+    console.log(filename);
     fs.readFile(filename, function(err, data) {
         if (err) {
             res.writeHead(404, {'content-Type': 'text/html'});
@@ -23,3 +23,9 @@ http.createServer(function (req, res) {
 
 
 console.log("server Listening on port 8080...");
+
+
+
+
+
+
